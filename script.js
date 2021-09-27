@@ -7,7 +7,7 @@ let totalImagesLoaded = 0;
 let photosArray = [];
 
 // Unsplash API
-const count = 30; // How many images you want to load in one API call
+const count = 10; // How many images you want to load in one API call
 const apiKey = "QNRl5YO8zWJyhtGw96YRg5GBZXVaKHg3U-727CxqDVM";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
